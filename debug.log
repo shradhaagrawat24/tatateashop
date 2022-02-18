@@ -1,0 +1,4 @@
+[17-Feb-2022 12:04:37 UTC] WordPress database error REFERENCES command denied to user 'wp_tatateashop'@'localhost' for table 'wp_tatateashop.wp_woocommerce_downloadable_product_permissions' for query ALTER TABLE `wp_wc_download_log`
+					ADD CONSTRAINT `fk_wp_wc_download_log_permission_id`
+					FOREIGN KEY (`permission_id`)
+					REFERENCES `wp_woocommerce_downloadable_product_permissions` (`permission_id`) ON DELETE CASCADE; made by do_action('wp_ajax_install-required-plugin'), WP_Hook->do_action, WP_Hook->apply_filters, tg_ajax_install_required_plugin, activate_plugin, do_action('activate_woocommerce/woocommerce.php'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Install::install, WC_Install::create_tables
